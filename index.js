@@ -46,3 +46,4 @@ app.get("/",(req,res)=>{
 app.listen(Port,()=>{
     console.log("server is running ", Port);
 });
+module.exports = app;
